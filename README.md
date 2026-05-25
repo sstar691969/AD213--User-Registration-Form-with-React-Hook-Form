@@ -1,76 +1,16 @@
-# AD213--User-Registration-Form-with-React-Hook-Form
-Building a User Registration Form with React Hook Form
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-William Anderson
+Currently, two official plugins are available:
 
-AD312
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
+## React Compiler
 
-# React Hook Form User Registration Form
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Overview
+## Expanding the ESLint configuration
 
-This project is a User Registration Form built using React Hook Form and React + Vite.
-
-The form includes validation, password matching, loading states, and localStorage draft saving.
-
----
-
-## Features
-
-- Full Name validation
-- Email validation
-- Password validation
-- Confirm Password matching
-- Role dropdown selection
-- Terms & Conditions checkbox
-- Loading state during submission
-- Form reset after submit
-- localStorage draft saving
-- PASS / FAIL test cases
-
----
-
-## Technologies Used
-
-- React
-- Vite
-- React Hook Form
-- CSS
-
----
-
-## Test Cases
-
-### Normal Test Cases
-- Full Name accepts valid input
-- Email accepts valid format
-- Passwords match successfully
-
-### Edge Test Cases
-- Empty Full Name shows error
-- Invalid email rejected
-- Weak password rejected
-
----
-
-## How to Run
-
-Install dependencies:
-
-npm install
-
-Start the app:
-
-npm run dev
-
-Open browser:
-
-http://localhost:5173
-or 5174
-
-
-Author: William Anderson
-
-Student React Hook Form Assignment
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
